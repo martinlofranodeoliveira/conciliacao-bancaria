@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "conta": {
+    "id": "CONTA-BB-OPERACIONAL-01",
+    "titulo": "Conta Movimento Operacional — Março/2026",
+    "moeda": "BRL",
+    "banco": "Banco Comercial Brasileiro (001)",
+    "agencia": "3412-8",
+    "numero_conta": "78450-2",
+    "data_inicial": "2026-03-01",
+    "data_final": "2026-03-31",
+    "saldo_inicial_razao_centavos": 2500000,
+    "saldo_final_razao_centavos": 2912500,
+    "saldo_inicial_extrato_centavos": 2500000,
+    "saldo_final_extrato_centavos": 3100000
+  },
+  "parametros": {
+    "janela_dias": 3,
+    "max_agrupamento": 4,
+    "orcamento_combinacoes": 5000
+  },
+  "razao": [
+    {
+      "id": "R-001",
+      "data": "2026-03-02",
+      "historico": "Recebimento PIX Cliente Alfa Comércio",
+      "documento": "PIX-20260302-01",
+      "valor_centavos": 680000,
+      "categoria": "RECEBIMENTO"
+    },
+    {
+      "id": "R-002",
+      "data": "2026-03-04",
+      "historico": "Pagamento Fornecedor Metalúrgica Sul NF 4410",
+      "documento": "TED-4410",
+      "valor_centavos": -325000,
+      "categoria": "FORNECEDOR"
+    },
+    {
+      "id": "R-003",
+      "data": "2026-03-09",
+      "historico": "Recebimento Contrato Manutenção Horizonte",
+      "documento": "FAT-889",
+      "valor_centavos": 490000,
+      "categoria": "RECEBIMENTO"
+    },
+    {
+      "id": "R-004",
+      "data": "2026-03-16",
+      "historico": "Pagamento Energia Elétrica Sede Março",
+      "documento": "CONV-8192",
+      "valor_centavos": -142500,
+      "categoria": "UTILIDADES"
+    },
+    {
+      "id": "R-005",
+      "data": "2026-03-12",
+      "historico": "Borderô de Cobrança Carteira #18 (3 títulos)",
+      "documento": "BORD-018",
+      "valor_centavos": 450000,
+      "categoria": "RECEBIMENTO_LOTE"
+    },
+    {
+      "id": "R-006",
+      "data": "2026-03-18",
+      "historico": "NF 901 Logística Expressa — Frete Norte",
+      "documento": "PAG-901",
+      "valor_centavos": -210000,
+      "categoria": "LOGISTICA"
+    },
+    {
+      "id": "R-007",
+      "data": "2026-03-18",
+      "historico": "NF 902 Logística Expressa — Seguro Carga",
+      "documento": "PAG-902",
+      "valor_centavos": -95000,
+      "categoria": "LOGISTICA"
+    },
+    {
+      "id": "R-008",
+      "data": "2026-03-24",
+      "historico": "Adiantamento Consultoria Técnica (Lote A)",
+      "documento": "PIX-CONS-01",
+      "valor_centavos": -175000,
+      "categoria": "SERVICOS_TERCEIROS"
+    },
+    {
+      "id": "R-009",
+      "data": "2026-03-30",
+      "historico": "Cheque Administrativo #4012 — Caução Locação",
+      "documento": "CHQ-4012",
+      "valor_centavos": -260000,
+      "categoria": "CAUCAO"
+    }
+  ],
+  "extrato": [
+    {
+      "id": "E-001",
+      "data": "2026-03-02",
+      "descricao": "PIX RECEBIDO ALFA COMERCIO LTDA",
+      "documento": "PIX-20260302-01",
+      "valor_centavos": 680000,
+      "tipo": "PIX"
+    },
+    {
+      "id": "E-002",
+      "data": "2026-03-05",
+      "descricao": "TED ENVIADA METALURGICA SUL SA",
+      "documento": "TED-4410",
+      "valor_centavos": -325000,
+      "tipo": "TED"
+    },
+    {
+      "id": "E-003",
+      "data": "2026-03-11",
+      "descricao": "LIQ COBRANCA HORIZONTE SERVICOS",
+      "documento": "FAT-889",
+      "valor_centavos": 490000,
+      "tipo": "BOLETO"
+    },
+    {
+      "id": "E-004",
+      "data": "2026-03-16",
+      "descricao": "DEB AUT CONCESSIONARIA ENERGIA",
+      "documento": "CONV-8192",
+      "valor_centavos": -142500,
+      "tipo": "DEBITO_AUTOMATICO"
+    },
+    {
+      "id": "E-005",
+      "data": "2026-03-12",
+      "descricao": "LIQ BOLETO CARTEIRA 18 TIT 01",
+      "documento": "BORD-018-1",
+      "valor_centavos": 180000,
+      "tipo": "BOLETO"
+    },
+    {
+      "id": "E-006",
+      "data": "2026-03-13",
+      "descricao": "LIQ BOLETO CARTEIRA 18 TIT 02",
+      "documento": "BORD-018-2",
+      "valor_centavos": 150000,
+      "tipo": "BOLETO"
+    },
+    {
+      "id": "E-007",
+      "data": "2026-03-13",
+      "descricao": "LIQ BOLETO CARTEIRA 18 TIT 03",
+      "documento": "BORD-018-3",
+      "valor_centavos": 120000,
+      "tipo": "BOLETO"
+    },
+    {
+      "id": "E-008",
+      "data": "2026-03-19",
+      "descricao": "REMESSA PAGAMENTO FORNECEDOR LOGISTICA EXPRESSA",
+      "documento": "REM-20260319",
+      "valor_centavos": -305000,
+      "tipo": "TED"
+    },
+    {
+      "id": "E-009",
+      "data": "2026-03-20",
+      "descricao": "TAR MANUTENCAO CONTA EMPRESARIAL",
+      "documento": "TAR-032026",
+      "valor_centavos": -8900,
+      "tipo": "TARIFA"
+    },
+    {
+      "id": "E-010",
+      "data": "2026-03-20",
+      "descricao": "TAR LIQUIDACAO COBRANCA REGISTRADA",
+      "documento": "TAR-COB-032026",
+      "valor_centavos": -3600,
+      "tipo": "TARIFA"
+    },
+    {
+      "id": "E-011",
+      "data": "2026-03-24",
+      "descricao": "PIX ENVIADO CONSULTORIA TECNICA FASE 1",
+      "documento": "E2E-8801",
+      "valor_centavos": -175000,
+      "tipo": "PIX"
+    },
+    {
+      "id": "E-012",
+      "data": "2026-03-25",
+      "descricao": "PIX ENVIADO CONSULTORIA TECNICA FASE 2",
+      "documento": "E2E-8802",
+      "valor_centavos": -175000,
+      "tipo": "PIX"
+    },
+    {
+      "id": "E-013",
+      "data": "2026-03-31",
+      "descricao": "TED RECEBIDA REMETENTE NAO IDENTIFICADO",
+      "documento": "TED-99104",
+      "valor_centavos": 115000,
+      "tipo": "TED"
+    }
+  ],
+  "ajustes_declarados": [
+    {
+      "id": "AJ-001",
+      "extrato_id": "E-009",
+      "natureza": "TARIFA",
+      "conta_contabil": "4.1.3.01-Tarifas de Manutenção Bancária",
+      "justificativa": "Tarifa mensal contratual do pacote empresarial prevista em tabela vigente."
+    },
+    {
+      "id": "AJ-002",
+      "extrato_id": "E-010",
+      "natureza": "TARIFA",
+      "conta_contabil": "4.1.3.02-Despesas com Cobrança Bancária",
+      "justificativa": "Tarifa de liquidação do borderô de cobrança registrada #18."
+    }
+  ]
+}

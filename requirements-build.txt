@@ -1,0 +1,2 @@
+build==1.2.2.post1
+setuptools>=77.0.0

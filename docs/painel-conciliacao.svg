@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-label="Painel de Conciliação Bancária">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <filter id="cardShadow" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.07" />
+    </filter>
+  </defs>
+  <rect width="1280" height="860" fill="#f8fafc" />
+  <g font-family="Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <rect x="0" y="0" width="1280" height="96" fill="url(#headerGrad)" />
+    <text x="36" y="40" fill="#f8fafc" font-size="22" font-weight="700">Conta Movimento Operacional — Março/2026</text>
+    <text x="36" y="68" fill="#94a3b8" font-size="13">Banco Comercial Brasileiro (001) • Ag. 3412-8 • Conta 78450-2 • Período 2026-03-01 a 2026-03-31 • Janela 3d (máx. lote 4)</text>
+    <rect x="854" y="26" width="390" height="42" rx="21" fill="#d1fae5" />
+    <text x="1049" y="52" text-anchor="middle" fill="#065f46" font-size="12" font-weight="700">CONSERVAÇÃO EXATA • 0 CENTAVOS NÃO EXPLICADOS</text>
+    <g filter="url(#cardShadow)">
+      <rect x="36" y="116" width="290" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <rect x="36" y="116" width="6" height="112" rx="3" fill="#2563eb" />
+      <text x="56" y="142" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.5">SALDO FINAL DO RAZÃO</text>
+      <text x="56" y="180" fill="#0f172a" font-size="24" font-weight="700">R$ 29.125,00</text>
+      <text x="56" y="208" fill="#475569" font-size="11">Inicial: R$ 25.000,00 | Ajustado: R$ 29.000,00</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="342" y="116" width="290" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <rect x="342" y="116" width="6" height="112" rx="3" fill="#0891b2" />
+      <text x="362" y="142" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.5">SALDO FINAL DO EXTRATO</text>
+      <text x="362" y="180" fill="#0f172a" font-size="24" font-weight="700">R$ 31.000,00</text>
+      <text x="362" y="208" fill="#475569" font-size="11">Dif. bruta: R$ 1.875,00 | Conc.: R$ 29.000,00</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="648" y="116" width="290" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <rect x="648" y="116" width="6" height="112" rx="3" fill="#059669" />
+      <text x="668" y="142" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.5">CONCILIADOS E AJUSTES</text>
+      <text x="668" y="180" fill="#065f46" font-size="24" font-weight="700">8 grupos</text>
+      <text x="668" y="208" fill="#475569" font-size="11">1:1 (4) • 1:N (1) • N:1 (1) • Ajustes (2)</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="954" y="116" width="290" height="112" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <rect x="954" y="116" width="6" height="112" rx="3" fill="#d97706" />
+      <text x="974" y="142" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.5">EXCEÇÕES OPERACIONAIS</text>
+      <text x="974" y="180" fill="#9a3412" font-size="24" font-weight="700">1 amb. / 2 pend.</text>
+      <text x="974" y="208" fill="#475569" font-size="11">Razão: -R$ 2.600,00 | Extrato: R$ 1.150,00</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="36" y="244" width="1208" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="60" y="270" fill="#0f172a" font-size="13" font-weight="700">DISTRIBUIÇÃO DOS 22 LANÇAMENTOS (9 RAZÃO + 13 EXTRATO)</text>
+      <text x="1220" y="270" text-anchor="end" fill="#475569" font-size="12">Volume conciliado: R$ 8.475,00 • Combinações avaliadas: 5/5000</text>
+      <rect x="60" y="282" width="791" height="20" fill="#10b981" />
+      <rect x="851" y="282" width="105" height="20" fill="#3b82f6" />
+      <rect x="956" y="282" width="158" height="20" fill="#f59e0b" />
+      <rect x="1114" y="282" width="106" height="20" fill="#ef4444" />
+      <rect x="60" y="312" width="10" height="10" rx="2" fill="#10b981" />
+      <text x="76" y="321" fill="#334155" font-size="11" font-weight="600">Conciliados (15)</text>
+      <rect x="300" y="312" width="10" height="10" rx="2" fill="#3b82f6" />
+      <text x="316" y="321" fill="#334155" font-size="11" font-weight="600">Ajustes Declarados (2)</text>
+      <rect x="540" y="312" width="10" height="10" rx="2" fill="#f59e0b" />
+      <text x="556" y="321" fill="#334155" font-size="11" font-weight="600">Ambíguos (3)</text>
+      <rect x="780" y="312" width="10" height="10" rx="2" fill="#ef4444" />
+      <text x="796" y="321" fill="#334155" font-size="11" font-weight="600">Pendentes (2)</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="36" y="352" width="710" height="472" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="60" y="382" fill="#0f172a" font-size="15" font-weight="700">GRUPOS CONCILIADOS E AJUSTES DECLARADOS</text>
+      <text x="722" y="382" text-anchor="end" fill="#64748b" font-size="11">Casamento 1:1, Lotes 1:N, Consolidações N:1 e Tarifas</text>
+      <rect x="52" y="396" width="678" height="28" rx="4" fill="#f1f5f9" />
+      <text x="64" y="414" fill="#475569" font-size="11" font-weight="700">GRUPO</text>
+      <text x="150" y="414" fill="#475569" font-size="11" font-weight="700">TIPO</text>
+      <text x="285" y="414" fill="#475569" font-size="11" font-weight="700">VÍNCULO RAZÃO ↔ EXTRATO</text>
+      <text x="560" y="414" fill="#475569" font-size="11" font-weight="700">DEFASAGEM</text>
+      <text x="716" y="414" text-anchor="end" fill="#475569" font-size="11" font-weight="700">VALOR EXATO</text>
+      <text x="64" y="446" fill="#0f172a" font-size="12" font-weight="700">CONC-001</text>
+      <rect x="146" y="432" width="124" height="20" rx="4" fill="#d1fae5" />
+      <text x="208" y="446" text-anchor="middle" fill="#065f46" font-size="10" font-weight="700">EXATO_1_1</text>
+      <text x="285" y="446" fill="#334155" font-size="12">R-001 ↔ E-001</text>
+      <text x="585" y="446" text-anchor="middle" fill="#64748b" font-size="12">0d</text>
+      <text x="716" y="446" text-anchor="end" fill="#047857" font-size="12" font-weight="700">R$ 6.800,00</text>
+      <line x1="52" y1="462" x2="730" y2="462" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="486" fill="#0f172a" font-size="12" font-weight="700">CONC-002</text>
+      <rect x="146" y="472" width="124" height="20" rx="4" fill="#d1fae5" />
+      <text x="208" y="486" text-anchor="middle" fill="#065f46" font-size="10" font-weight="700">EXATO_1_1</text>
+      <text x="285" y="486" fill="#334155" font-size="12">R-002 ↔ E-002</text>
+      <text x="585" y="486" text-anchor="middle" fill="#64748b" font-size="12">1d</text>
+      <text x="716" y="486" text-anchor="end" fill="#b91c1c" font-size="12" font-weight="700">-R$ 3.250,00</text>
+      <line x1="52" y1="502" x2="730" y2="502" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="526" fill="#0f172a" font-size="12" font-weight="700">CONC-003</text>
+      <rect x="146" y="512" width="124" height="20" rx="4" fill="#d1fae5" />
+      <text x="208" y="526" text-anchor="middle" fill="#065f46" font-size="10" font-weight="700">EXATO_1_1</text>
+      <text x="285" y="526" fill="#334155" font-size="12">R-003 ↔ E-003</text>
+      <text x="585" y="526" text-anchor="middle" fill="#64748b" font-size="12">2d</text>
+      <text x="716" y="526" text-anchor="end" fill="#047857" font-size="12" font-weight="700">R$ 4.900,00</text>
+      <line x1="52" y1="542" x2="730" y2="542" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="566" fill="#0f172a" font-size="12" font-weight="700">CONC-004</text>
+      <rect x="146" y="552" width="124" height="20" rx="4" fill="#d1fae5" />
+      <text x="208" y="566" text-anchor="middle" fill="#065f46" font-size="10" font-weight="700">EXATO_1_1</text>
+      <text x="285" y="566" fill="#334155" font-size="12">R-004 ↔ E-004</text>
+      <text x="585" y="566" text-anchor="middle" fill="#64748b" font-size="12">0d</text>
+      <text x="716" y="566" text-anchor="end" fill="#b91c1c" font-size="12" font-weight="700">-R$ 1.425,00</text>
+      <line x1="52" y1="582" x2="730" y2="582" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="606" fill="#0f172a" font-size="12" font-weight="700">CONC-005</text>
+      <rect x="146" y="592" width="124" height="20" rx="4" fill="#e0e7ff" />
+      <text x="208" y="606" text-anchor="middle" fill="#3730a3" font-size="10" font-weight="700">LOTE_1_N</text>
+      <text x="285" y="606" fill="#334155" font-size="12">R-005 ↔ E-005+E-006+E-007</text>
+      <text x="585" y="606" text-anchor="middle" fill="#64748b" font-size="12">1d</text>
+      <text x="716" y="606" text-anchor="end" fill="#047857" font-size="12" font-weight="700">R$ 4.500,00</text>
+      <line x1="52" y1="622" x2="730" y2="622" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="646" fill="#0f172a" font-size="12" font-weight="700">CONC-006</text>
+      <rect x="146" y="632" width="124" height="20" rx="4" fill="#fae8ff" />
+      <text x="208" y="646" text-anchor="middle" fill="#86198f" font-size="10" font-weight="700">LOTE_N_1</text>
+      <text x="285" y="646" fill="#334155" font-size="12">R-006+R-007 ↔ E-008</text>
+      <text x="585" y="646" text-anchor="middle" fill="#64748b" font-size="12">1d</text>
+      <text x="716" y="646" text-anchor="end" fill="#b91c1c" font-size="12" font-weight="700">-R$ 3.050,00</text>
+      <line x1="52" y1="662" x2="730" y2="662" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="686" fill="#0f172a" font-size="12" font-weight="700">CONC-007</text>
+      <rect x="146" y="672" width="124" height="20" rx="4" fill="#dbeafe" />
+      <text x="208" y="686" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">AJUSTE_DECLARADO</text>
+      <text x="285" y="686" fill="#334155" font-size="12">Ajuste AJ-001 ↔ E-009</text>
+      <text x="585" y="686" text-anchor="middle" fill="#64748b" font-size="12">0d</text>
+      <text x="716" y="686" text-anchor="end" fill="#b91c1c" font-size="12" font-weight="700">-R$ 89,00</text>
+      <line x1="52" y1="702" x2="730" y2="702" stroke="#f1f5f9" stroke-width="1" />
+      <text x="64" y="726" fill="#0f172a" font-size="12" font-weight="700">CONC-008</text>
+      <rect x="146" y="712" width="124" height="20" rx="4" fill="#dbeafe" />
+      <text x="208" y="726" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">AJUSTE_DECLARADO</text>
+      <text x="285" y="726" fill="#334155" font-size="12">Ajuste AJ-002 ↔ E-010</text>
+      <text x="585" y="726" text-anchor="middle" fill="#64748b" font-size="12">0d</text>
+      <text x="716" y="726" text-anchor="end" fill="#b91c1c" font-size="12" font-weight="700">-R$ 36,00</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="762" y="352" width="482" height="168" rx="10" fill="#fffbeb" stroke="#fde68a" />
+      <text x="784" y="380" fill="#92400e" font-size="14" font-weight="700">AMBIGUIDADES PRESERVADAS (SEM ESCOLHA ARBITRÁRIA)</text>
+      <rect x="784" y="394" width="438" height="46" rx="6" fill="#ffffff" stroke="#fcd34d" />
+      <text x="796" y="412" fill="#92400e" font-size="12" font-weight="700">AMB-001 (EXATO_1_1) • Alvo: -R$ 1.750,00</text>
+      <text x="796" y="430" fill="#78350f" font-size="11">Candidatos empatados: R-008 ↔ E-011 (0d) | R-008 ↔ E-012 (1d)</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="762" y="534" width="482" height="150" rx="10" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="784" y="562" fill="#0f172a" font-size="13" font-weight="700">LANÇAMENTOS PENDENTES (RAZÃO E EXTRATO)</text>
+      <rect x="784" y="578" width="72" height="20" rx="4" fill="#fee2e2" />
+      <text x="820" y="592" text-anchor="middle" fill="#991b1b" font-size="10" font-weight="700">RAZAO</text>
+      <text x="866" y="592" fill="#0f172a" font-size="11" font-weight="700">R-009 (2026-03-30)</text>
+      <text x="980" y="592" fill="#475569" font-size="11">Cheque Administrativo…</text>
+      <text x="1222" y="592" text-anchor="end" fill="#0f172a" font-size="11" font-weight="700">-R$ 2.600,00</text>
+      <rect x="784" y="610" width="72" height="20" rx="4" fill="#fef3c7" />
+      <text x="820" y="624" text-anchor="middle" fill="#92400e" font-size="10" font-weight="700">EXTRATO</text>
+      <text x="866" y="624" fill="#0f172a" font-size="11" font-weight="700">E-013 (2026-03-31)</text>
+      <text x="980" y="624" fill="#475569" font-size="11">TED RECEBIDA REMETENT…</text>
+      <text x="1222" y="624" text-anchor="end" fill="#0f172a" font-size="11" font-weight="700">R$ 1.150,00</text>
+    </g>
+    <g filter="url(#cardShadow)">
+      <rect x="762" y="698" width="482" height="126" rx="10" fill="#0f172a" />
+      <text x="784" y="726" fill="#38bdf8" font-size="12" font-weight="700">PONTE ALGÉBRICA DE CONSERVAÇÃO (EXTRATO − RAZÃO)</text>
+      <text x="784" y="750" fill="#e2e8f0" font-size="11">Divergência Bruta Final: R$ 1.875,00 (187500 centavos)</text>
+      <text x="784" y="772" fill="#94a3b8" font-size="11">= Ajustes (-R$ 125,00) + Pendências (R$ 3.750,00) + Ambíguos (-R$ 1.750,00)</text>
+      <text x="784" y="798" fill="#34d399" font-size="12" font-weight="700">Saldo Conciliado: R$ 29.000,00 • Resíduo: 0 centavos</text>
+    </g>
+  </g>
+</svg>
