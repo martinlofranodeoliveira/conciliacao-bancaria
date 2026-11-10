@@ -675,7 +675,7 @@ def publish_file_bytes(destino: str | Path, conteudo: bytes) -> Path:
 
     tmp_nome = f".tmp-{caminho.name}-{os.getpid()}-{secrets.token_hex(8)}"
     tmp_caminho = pai / tmp_nome
-    flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
+    flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL | getattr(os, "O_BINARY", 0)
     if hasattr(os, "O_NOFOLLOW"):
         flags |= os.O_NOFOLLOW
 
